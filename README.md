@@ -1,6 +1,6 @@
-#Lyft challenge (semantic segmentation)
+# Lyft challenge (semantic segmentation)
 
-###Overview
+### Overview
 
 The goal of the challenge is to do a pixel-wise identification of objects from a front car camera. 
 
