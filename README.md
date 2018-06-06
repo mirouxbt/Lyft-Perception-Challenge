@@ -1,6 +1,7 @@
 #Lyft challenge (semantic segmentation)
 
 ###Overview
+
 The goal of the challenge is to do a pixel-wise identification of objects from a front car camera. 
 
 The images are generated from [CARLA](http://carla.org/), an open-source simulator for autonomous driving. It includes a virtual world with dynamic objects like cars and pedestrians and differents weather conditions. It also includes a set of sensors like cameras with different post-processing, one is the semantic segmentation with 14 differents classes.
@@ -262,5 +263,5 @@ Here isa video of the network applied to real world
 
 [![Video segmentation example](./images/Video_realworld_thumbnail.png  "Video segmentation example")](https://www.youtube.com/watch?v=mQITWa9D_H8) 
 
-To improve on the real world i would try to add with the augmentation more reality to the road surface by degrading the road lines, make it dashed. We could add deformation to the road to remove is perfection.
+To improve on the real world i would try to add during the augmentation more reality to the road surface by degrading the road lines, make it dashed. We could add deformation to the road to remove its perfection.
  
